@@ -23,6 +23,23 @@ receipt = []
 
 total = []
 
+print(bakery_items[purchase]["name"])
+confirm = input("Are you sure?")
+if confirm == "yes":
+    receipt.append(bakery_items[purchase]["name"])
+    total.append(bakery_items[purchase]["price"])
+    purchase = int(input("What would you like to buy?"))
+else:
+    checkout = (input("Would you like to checkout"))  
+    if checkout == "no":
+        purchase = int(input("What would you like to buy?"))  
+    elif checkout == "yes":
+        end = input("Thank you for shopping with us! Would you like a reciept?")
+        if end == "yes":
+            print (receipt)
+            print (f"Your total is ${sum(total)}")
+
+
 '''if purchase == 0:
     print(bakery_items[0]["name"])
     confirm = input("Are you sure?")
