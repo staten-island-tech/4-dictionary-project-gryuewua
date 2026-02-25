@@ -40,7 +40,7 @@ while checkout != "yes":
 if checkout == "yes":
     end = input("Thank you for shopping with us! Would you like a reciept?")
     if end == "yes":
-        print (receipt)
+        print (f"You bought{(receipt)}")
         print (f"Your total is ${sum(total)}")
     elif end == "no":
         print (f"Your total is ${sum(total)}")
