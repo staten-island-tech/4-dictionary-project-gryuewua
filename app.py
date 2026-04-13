@@ -5,14 +5,14 @@ bakery_items = [
     "description": "Hard as concrete, tastes like concrete as well: do NOT use 'I can't believe it's not butter!'."
     },
     {
-        "name":  "cake",
+    "name":  "cake",
     "price": int("50"),
     "description": "Hopefully not as bad as those cookies, but that's wishful thinking."
     },
     {
-    "name":  "pboy",
+    "name":  "lemonade",
     "price": int("1"),
-    "description": "placeholder"
+    "description": "A refreshing drink."
     }
 ]
 
